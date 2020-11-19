@@ -43,14 +43,14 @@
             <h1 id="city"></h1>
             <ul>
               <li>Last update at <span id="date"></span></li>
-              <li id="description">Clear</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img alt="Clear" id="icon" class="float-left" />
-                <div class="flat-left">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
                   <strong id="temperature"></strong
                   ><span class="units"
                     ><a href="#" id="celsius-link" class="active">°C</a> |
@@ -61,92 +61,21 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: <span id="precipitation"></span> %</li>
+                <li>Precipitation: <span id="precipitation"></span>%</li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km/h</li>
               </ul>
             </div>
           </div>
-
-          <div class="row weather-forcast">
-            <div class="col-2">
-              <h3>Sun</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Mon</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Tues</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Wed</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Thurs</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Fri</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-            <div class="col-2">
-              <h3>Sat</h3>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-                alt=""
-              />
-              <div class="weather-forecast-temperature">
-                <strong>22°</strong> 17°
-              </div>
-            </div>
-          </div>
+          <div class="row weather-forecast" id="forecast"></div>
         </div>
         <small>
           <a
             href="https://github.com/eromo1091/Vanillia-weather-app"
             target="_blank"
             >Open-source code</a
-          >, by Elizabeth Romo
+          >
+          by Elizabeth Romo
         </small>
       </div>
     </div>
